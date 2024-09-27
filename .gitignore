@@ -1,0 +1,17 @@
+*.hi
+*.o
+.attr-cache
+.cabal-sandbox
+TAGS
+cabal.project.local
+cabal.sandbox.config
+config/backend/clientSessionKey
+ctags
+dist-newstyle/
+dist/
+ghcid-output.txt
+profile/
+result
+result-*
+tags
+TAGS
