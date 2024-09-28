@@ -2,7 +2,7 @@ name:                hash-cons
 version:             0.1.0.0
 synopsis:            Opportunistic hash-consing data structure
 description:         Provides a pure interface for hash-consing values.
-license:             BSD-3-Clause
+license:             BSD3
 license-file:        LICENSE
 author:              Ryan Trinkle
 maintainer:          ryan@trinkle.org
@@ -15,7 +15,7 @@ library
   exposed-modules:     Data.HashCons
                        Data.HashCons.Internal
   build-depends:       base >=4.9 && <5,
-                       hashable
+                       hashable >= 1.4.0 && < 1.5
   default-language:    Haskell2010
 
 test-suite tests
