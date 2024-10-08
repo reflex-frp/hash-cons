@@ -1,5 +1,5 @@
 name:                hash-cons
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            Opportunistic hash-consing data structure
 description:         Provides a pure interface for hash-consing values.
 license:             BSD3
